@@ -1,7 +1,11 @@
-import React from 'react';
+import CommonLayout from '@/layouts/CommonLayout';
 
-const about = () => {
-	return <div>서비스소개입니다.</div>;
+const About = () => {
+	return <div>서비스 소개입니다.</div>;
 };
 
-export default about;
+export default About;
+
+About.getLayout = function getLayout(page) {
+	return <CommonLayout>{page}</CommonLayout>;
+};

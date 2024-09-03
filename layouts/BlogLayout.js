@@ -5,6 +5,7 @@ const BlogLayout = ({ children }) => {
 	return (
 		<div>
 			<header>
+				<h1>블로그 레이아웃 </h1>
 				<nav>
 					<ul>
 						<li>

@@ -1,12 +1,11 @@
-import React from 'react';
-import CommonLayout from '../commonlayout';
+import BlogLayout from '@/layouts/BlogLayout';
 
-const first = () => {
+const First = () => {
 	return <div>첫 내용</div>;
 };
 
-export default first;
+export default First;
 
-first.getLayout = function getLayout(page) {
-	return <CommonLayout>{page}</CommonLayout>;
+First.getLayout = function getLayout(page) {
+	return <BlogLayout>{page}</BlogLayout>;
 };
